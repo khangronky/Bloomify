@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="images/png" href="images/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <title>Bloomify - Flourishing the nature</title>
+</head>
+
+<body>
+    <nav>
+        <a href="/" id="home-link"><img src="images/Bloomify.png" alt="Bloomify" id="logo"></a>
+        <div id="nav-menu">
+            <div class="nav-item"><a href="/">Home</a></div>
+            <div class="nav-item"><a href="/about">About</a></div>
+            <div class="nav-item"><a href="/order">Order</a></div>
+            <div class="nav-item"><a href="/login">Login</a></div>
+        </div>
+    </nav>
+    <div id="offer">
+        <h3>Happy Women's Day! Get up to 30% off and free shipping!</h3>
+    </div>
+    <header>
+        <div id="header-container">
+            <form id="order-form" method="POST" action="">
+                <h1>Order</h1>
+                <div id="personal-info" class="info">
+                    <h2>Personal Information</h2>
+                    <div id="first-name-container" class="container">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+                    </div>
+                    <div id="last-name-container" class="container">
+                        <label for="last-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+                    </div>
+                    <div id="dob-container" class="container">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                </div>
+                <div id="shipping-info" class="info">
+                    <h2>Shipping Information</h2>
+                    <div id="address-container" class="container">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" name="address" placeholder="Address" required>
+                    </div>
+                    <div id="district-container" class="container">
+                        <label for="district">District</label>
+                        <select id="district" name="district" required>
+                            <option value="district1">District 1</option>
+                            <option value="district2">District 2</option>
+                            <option value="district3">District 3</option>
+                            <option value="district4">District 4</option>
+                            <option value="district5">District 5</option>
+                            <option value="district6">District 6</option>
+                        </select>   
+                    </div>
+                    <div id="city-container" class="container">
+                        <label for="city">City</label>
+                        <select id="city" name="city" required>
+                            <option value="HCMC">Ho Chi Minh City</option>
+                            <option value="Hanoi">Ha Noi</option>
+                            <option value="Danang">Da Nang</option>
+                            <option value="Hue">Hue</option>
+                            <option value="Nhatrang">Nha Trang</option>
+                            <option value="Vungtau">Vung Tau</option>
+                            <option value="Cantho">Can Tho</option>
+                            <option value="Halong">Ha Long</option>
+                            <option value="Phanthiet">Phan Thiet</option>
+                            <option value="Phuquoc">Phu Quoc</option>
+                        </select>
+                    </div>
+                    <div id="postcode-container" class="container">
+                        <label for="postcode">Postcode</label>
+                        <input type="text" id="postcode" name="postcode" placeholder="Postcode" required>
+                    </div>
+                </div>
+                <div id="payment-info" class="info">
+                    <h2>Payment Information</h2>
+                    <div id="product-container" class="container">
+                        <label for="product">Select product:</label>
+                        <select id="product" name="product" required>
+                            <option value="rose">Rose</option>
+                            <option value="lily">Lily</option>
+                            <option value="tulip">Tulip</option>
+                            <option value="daisy">Daisy</option>
+                            <option value="sunflower">Sunflower</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="order-container">
+                    <input type="submit" value="Order" id="order-button">
+                </div>
+            </form>
+        </div>
+    </header>
+    <footer>
+        <p>&copy; 2024 Bloomify. All rights reserved.</p>
+        <div id="footer-menu">
+            <div class="footer-item"><a href="/">Home</a></div>
+            <div class="footer-item"><a href="/about">About</a></div>
+            <div class="footer-item"><a href="/order">Order</a></div>
+            <div class="footer-item"><a href="/login">Login</a></div>
+        </div>
+    </footer>
+</body>
+
+</html>
