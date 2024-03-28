@@ -60,16 +60,6 @@ nav {
     border-bottom: 2px solid #58d3aa;
 }
 
-#offer {
-    position: sticky;
-    top: 100px;
-    z-index: 2;
-    background-color: #d66488;
-    color: #b5e211;
-    text-align: center;
-    padding: 10px 20px;
-}
-
 header {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/headerimg.jpg') no-repeat center center;
 }
